@@ -1,2 +1,2 @@
 # vh_trainingground
-Vextorhorizon training ground
+It just my pure learning zone and I want it to save in git repo
