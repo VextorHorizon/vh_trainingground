@@ -1,2 +1,3 @@
-# vh_trainingground
+# vh_trainingground/likely garbage ┐(︶▽︶)┌
 It just my pure learning zone and I want it to save in git repo
+used to throw away code that I write 
