@@ -1,18 +1,11 @@
- from ping3 import ping
-
+from ping3 import ping
 import time
+host = "www.google.com"
 
-latency = ping('www.google.com')
-
-
-if latency:
-
-    for i in range(4):
-
-        time.sleep(2)
-
-        print(f"{latency * 1000:.02f} ms")
-
-else:
-
-    print("Can't connect") 
+for i in range(4):
+    latency = ping(host)
+    if latency:
+        print(f"{latency * 1000:.2f} ms")
+        time.sleep(3)
+    else:
+        print("Can't Connect")
