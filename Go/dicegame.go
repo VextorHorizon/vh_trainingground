@@ -44,3 +44,6 @@ func randomnumber(userint int) {
 		fmt.Printf("Still miss the guess huh? the lucky number is %d", randomnum)
 	}
 }
+
+// first time on writing Go basic project
+
