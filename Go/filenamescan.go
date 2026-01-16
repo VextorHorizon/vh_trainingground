@@ -14,13 +14,20 @@ func main() {
 	}
 	// fmt.Printf("%v", files)
 	// fmt.Println(len(files))
-
+	var foldbox []string
+	var docbox []string
 	for _, file := range files {
-		if !file.IsDir() {
-			fmt.Printf("📄 %s\n", file)
+		if file.IsDir() {
+			foldbox = append(foldbox, file.Name())
 		} else {
-			fmt.Printf("📂 %s\n", file)
+			docbox = append(docbox, file.Name())
 		}
 	}
 
+	for _, file := range foldbox {
+		fmt.Printf("📂 - %s\n", file)
+	}
+	for _, file := range docbox {
+		fmt.Printf("📄 - %s\n", file)
+	}
 }
