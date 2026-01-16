@@ -19,11 +19,14 @@ func main() {
 		if err != nil {
 			continue
 		}
-		fmt.Println(info)
-		fmt.Println("File Size: ", info.Size(), "Byte")
-		filemb := (float64(info.Size()) / 1024 / 1024)
-		fmt.Printf("File Size in mb %.2f Megabyte\n", filemb)
+		// fmt.Println(info)
 
+		filemb := (float64(info.Size()) / 1024 / 1024)
+		if filemb < 1 {
+			fmt.Printf("File Name: %-25s File Size: %10d Byte\n", info.Name(), info.Size())
+		} else {
+			fmt.Printf("File Name: %-25s File Size: %10.2f Megabyte\n", info.Name(), filemb)
+		}
 	}
 
 }
