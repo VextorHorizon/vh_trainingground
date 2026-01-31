@@ -13,9 +13,10 @@ func saysomething(text string) {
 }
 
 func main() {
-	saysomething("Goroutine is working")
+	go saysomething("Goroutine is working")
 
 	saysomething("I'm a main function")
 
 	fmt.Println("Finished")
 }
+
