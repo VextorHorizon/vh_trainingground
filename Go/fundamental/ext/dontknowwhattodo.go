@@ -18,7 +18,8 @@ func main() {
 	fmt.Println("Don't know what to do today")
 
 	if Task1.isDone == false {
-		fmt.Println("Heart broken?")
+		fmt.Println("Heart broken?") //broken? idk
 	}
 
 }
+
