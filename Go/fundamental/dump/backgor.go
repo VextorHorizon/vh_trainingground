@@ -10,5 +10,10 @@ func main() {
 	if err != nil {
 		return
 	}
-	fmt.Println(files)
+	for _, file := range files {
+		if !file.IsDir() {
+			fmt.Println(file)
+		}
+
+	}
 }
