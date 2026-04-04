@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"os"
 )
 
 type User struct {
@@ -26,10 +27,19 @@ func main() {
 
 	fmt.Println(string(data))
 
-	jsonStr := `{"name":"Vextor","age":1000,"gender":"Male"}`
+	jsonByte, err := os.ReadFile("data.json")
+
+	if err != nil {
+		fmt.Println("Error")
+		return
+	}
 
 	var user1 User
-	json.Unmarshal([]byte(jsonStr), &user1)
+	err = json.Unmarshal(jsonByte, &user1)
+	if err != nil {
+		fmt.Println("Couldn't translate:", err)
+		return
+	}
 
 	fmt.Println(user1)
 }
