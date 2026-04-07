@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"os"
 )
@@ -13,4 +14,13 @@ func main() {
 	}
 
 	fmt.Println(string(target))
+
+	var data = map[string]any{}
+	json.Unmarshal(target, &data)
+
+	fmt.Println(data)
+	namefromJson := data["name"]
+
+	fmt.Println(namefromJson)
+
 }
