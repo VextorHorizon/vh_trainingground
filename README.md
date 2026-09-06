@@ -2,7 +2,5 @@
 It just my pure learning code repo and I want it to save somewhere,
 used to throw away code that I write but sometime I forgot syntax so I need to get something that call my knowledge back again <br>
 
-Currently learning/working on [Rust](https://github.com/VextorHorizon/vh_trainingground/tree/main/rust) , for my sake of Greater engineering mindsets
-
-
+Currently learning/working on [Golang](https://github.com/VextorHorizon/vh_trainingground/tree/main/Go/fundamental) , for my sake of Greater engineering mindsets
 
