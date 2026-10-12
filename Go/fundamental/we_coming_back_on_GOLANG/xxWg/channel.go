@@ -25,4 +25,10 @@ func main() {
 	wg.Wait()
 	fmt.Println(v)
 
+	/*
+	v = <-ch = 20
+	v = <-ch = 30 (value 30 replacing 20)
+	v = <-ch = 10 (value 10 replacing 30)
+	*/
+
 }
