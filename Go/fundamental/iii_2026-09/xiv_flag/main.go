@@ -13,7 +13,7 @@ func main() {
 	args := flag.Args()
 
 	if len(args) < 1 {
-		fmt.Println("Missing IP")
+		fmt.Println("Needed format <int> <int>")
 		return
 	}
 

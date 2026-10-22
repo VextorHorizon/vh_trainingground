@@ -17,7 +17,7 @@ func main() {
 	fmt.Println(man1) //{manman1 [1,2,3,4,5 7,6,4,7,4]}
 
 	for _, eachone := range man1.numberWithString {
-
+		fmt.Println(eachone) // [1,2,3,4,5] [7,6,4,7,4]
 		numberString := strings.Split(eachone, ",")
 		fmt.Println(numberString) // [1 2 3 4 5] a single number(string) that pack inside the box
 
