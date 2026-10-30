@@ -4,3 +4,5 @@ used to throw away code that I write but sometime I forgot syntax so I need to g
 
 Currently learning/working on [Golang](https://github.com/VextorHorizon/vh_trainingground/tree/main/Go/fundamental) , for my sake of Greater engineering mindsets & judgements
 
+gonna moving to C++ soon
+
