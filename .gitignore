@@ -1,1 +1,6 @@
 target/
+
+*.exe
+*.obj
+*.pdb
+*.ilk
