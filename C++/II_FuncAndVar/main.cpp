@@ -1,4 +1,4 @@
-#include <iostream> // that is file from library file.lib in my computer
+#include <iostream> 
 
 int twice(int n){
     return n * 2;
