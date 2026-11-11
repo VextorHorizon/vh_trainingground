@@ -10,10 +10,10 @@ int main(){
     while (f.get(c)){
         unsigned char u = c;
         char shown = (u >= 32 && u <= 126) ? c : '.';
-        // std::println("Index: {}, Byte: {:02x}, Meaning: {}",count,(unsigned char)c,shown);
-        // count++;
+        std::println("Index: {}, Byte: {:02x}, Meaning: {}",count,(unsigned char)c,shown);
+        count++;
 
-        std::printf("%c",shown);
+        // std::printf("%c",shown);
     }
 }
 
