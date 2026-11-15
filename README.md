@@ -6,3 +6,5 @@ Currently learning/working on [C++](https://github.com/VextorHorizon/vh_training
 
 C++(syntax) is very hard to get on with it, Freaking hard, even 1 commit per day hard for this initial stage phase, but concept is not still hard but can get on thou. But I think it will be alot more chill afterward<br>
 pre-university phase
+
+11/16/2026: Learning C++ is like Dark Souls, everything starts with opening the game(ทุกอย่างเริ่มต้นด้วยการเปิดเกมเล่น)
