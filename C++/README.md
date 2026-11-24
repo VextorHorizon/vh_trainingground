@@ -12,3 +12,4 @@ I'm currently using C++26
 - 11/09/2026: Signed counts back from 0, unsigned counts back from 256
 - 11/16/2026(2:00AM): Bytes 0000 0000 meaning is like 4/4 musical bar(การนับห้องของภาษาดนตรี)
 - 11/16/2026: Signed byte = -128 to 127, unsigned = 0 to 255
+- 11/24/2026: XOR(^) Same same = 0, Different = 1
